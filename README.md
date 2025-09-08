@@ -2,7 +2,7 @@
 
 📚 A Spring Boot web application for managing books with full CRUD functionality.
 
-## 🔗 Database Excercises Part 1
+## 🔗 Database Excercises Part 1 (bookstore)
 [Part 1](bookstore)
 
 ## 📋 Tasks Completed
