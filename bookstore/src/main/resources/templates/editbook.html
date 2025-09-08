@@ -31,6 +31,17 @@
                 <label for="price" class="form-label">Price:</label>
                 <input type="number" step="0.01" class="form-control" id="price" th:field="*{price}" required>
             </div>
+            <div class="mb-3">
+                <label for="category" class="form-label">Category:</label>
+                <select class="form-control" id="category" th:field="*{category}" required>
+                    <option value="">Select Category</option>
+                    <option th:each="category : ${categories}" 
+                            th:value="${category.id}"
+                            th:selected="${book.category != null and book.category.id == category.id}"
+                            th:text="${category.name}">
+                    </option>
+                </select>
+            </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-success">Save Changes</button>
             </div>
