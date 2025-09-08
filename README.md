@@ -1,11 +1,11 @@
 # Bookstore Application
 
-📚 A Spring Boot web application for managing books with full CRUD functionality.
+A Spring Boot web application for managing books with full CRUD functionality.
 
 ## 🔗 Database Excercises Part 1 (bookstore)
 [Part 1](bookstore)
 
-## 📋 Tasks Completed
+## Tasks Completed
 - Task 1: JPA & Database Integration
 - Task 2: Book Listing Page
 - Task 3: CRUD Operations
